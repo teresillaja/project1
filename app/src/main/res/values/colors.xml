@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF530D</color>
+    <color name="colorGoal1">#BF56A3</color>
+    <color name="colorGoal2">#9896D9</color>
+    <color name="colorGoal3">#FFAC54</color>
+    <color name="textColor">#F1F3FF</color>
+    <color name="appColor">#A63348</color>
+</resources>

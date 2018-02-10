@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_goals"
+        android:enabled="true"
+        android:title="Goals"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_tasks"
+        android:enabled="true"
+        android:title="Tasks"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_reports"
+        android:enabled="true"
+        android:title="Reports"
+        app:showAsAction="ifRoom" />
+
+    <!--android:icon="@drawable/ic_audiotrack_white_24dp"-->
+</menu>

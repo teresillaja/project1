@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:cardBackgroundColor="@color/colorGoal1"
+        android:padding="@dimen/fab_margin">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:font="@font/sanchezitalic"
+                android:padding="@dimen/fab_margin"
+                android:text="Become a more athletic person"
+                android:textColor="@color/textColor"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginLeft="8dp" />
+
+            <ProgressBar
+                android:id="@+id/progressBarGoal1"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_margin="@dimen/fab_margin"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        </android.support.constraint.ConstraintLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:cardBackgroundColor="@color/colorGoal2"
+        android:padding="@dimen/fab_margin">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:font="@font/sanchezitalic"
+            android:text="Know more about the history of philosophy"
+            android:textColor="@color/textColor"
+            android:textSize="20dp" />
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:cardBackgroundColor="@color/colorGoal3"
+        android:padding="@dimen/fab_margin">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:font="@font/sanchezitalic"
+            android:padding="@dimen/fab_margin"
+            android:text="Meet the love of my life"
+            android:textColor="@color/textColor"
+            android:textSize="20dp" />
+
+    </android.support.v7.widget.CardView>
+
+    <!--<TextView-->
+    <!--android:id="@+id/textView2"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="1"-->
+    <!--android:background="@color/colorGoal2"-->
+    <!--android:font="@font/sanchezitalic"-->
+    <!--android:gravity="center_vertical"-->
+    <!--android:padding="@dimen/fab_margin"-->
+    <!--android:text="Know more about the history of philosophy"-->
+    <!--android:textColor="@color/textColor"-->
+    <!--android:textSize="20dp"-->
+    <!--tools:layout_editor_absoluteX="163dp"-->
+    <!--tools:layout_editor_absoluteY="190dp" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/textView3"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="1"-->
+    <!--android:background="@color/colorGoal3"-->
+    <!--android:font="@font/sanchezitalic"-->
+    <!--android:gravity="center_vertical"-->
+    <!--android:padding="@dimen/fab_margin"-->
+    <!--android:text="Meet the love of my life"-->
+    <!--android:textColor="@color/textColor"-->
+    <!--android:textSize="20dp"-->
+    <!--tools:layout_editor_absoluteX="163dp"-->
+    <!--tools:layout_editor_absoluteY="190dp" />-->
+</LinearLayout>
